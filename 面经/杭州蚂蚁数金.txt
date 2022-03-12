@@ -1,0 +1,46 @@
+项目。。。。。。
+
+webpack作用、内部？
+
+盒子模型设置各种属性的呈现
+boxsizing设置
+float
+flex
+inline
+margin
+padding
+双栏布局
+水平垂直居中
+float-BFC
+如何判断元素是否到达可视区域
+
+继承的方法
+
+双向绑定
+生命周期
+xx操作在哪个生命周期中执行的
+observer watcher怎么实现
+数据流
+组件传值props emit vuex eventbus
+router模式hash history
+router内部实现 
+pushstate自己使用过吗，作用是什么
+
+性能优化
+懒加载实现
+节流防抖
+滚轮滑动用哪种实现
+回流重绘
+
+http头哪些属性，什么内容，什么作用
+websocket
+缓存
+cookie，localstorage
+跨域各种方法
+JSONP为什么能跨域
+使用postMessage吗
+nodejs搭建
+
+字符串改驼峰命名
+手写Promise.all()
+O(n^3)的diff算法，返回区别
