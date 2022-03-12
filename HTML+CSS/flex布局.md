@@ -1,6 +1,6 @@
 # Flex
 ## 概念
-![flex1](../images/flex1.jpg)
+![flex1](../images/HTML+CSS/flex/flex1.jpg)
 Flex是Flexible Box的缩写，意为”弹性布局”，用来为盒状模型提供最大的灵活性。
 设为Flex布局以后，子元素的float、clear和vertical-align属性将失效。
 采用Flex布局的元素，称为**Flex容器**（flex container），简称”容器”。它的所有子元素自动成为容器成员，称为**Flex项目**（flex item）。
@@ -10,7 +10,7 @@ Flex是Flexible Box的缩写，意为”弹性布局”，用来为盒状模型�
 项目默认沿主轴排列。单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。
 ## 容器属性
 ### flex-direction
-![](../images/flex2.jpg)
+![](../images/HTML+CSS/flex/flex2.jpg)
 决定主轴的方向（即项目排列方向）
 ```
 .box {
@@ -18,7 +18,7 @@ flex-direction: row | row-reverse | column | column-reverse;
 }
 ```
 ### flex-wrap
-![](../images/flex3.jpg)
+![](../images/HTML+CSS/flex/flex3.jpg)
 flex-wrap属性定义，如果一条轴线排不下，如何换行。
 ```
 .box{
@@ -33,7 +33,7 @@ flex-flow属性是flex-direction属性和flex-wrap属性的简写形式，默认
 }
 ```
 ### justify-content
-![](../images/flex4.jpg)
+![](../images/HTML+CSS/flex/flex4.jpg)
 justify-content属性定义了项目在主轴上的对齐方式。
 **flex-start**：靠左对齐
 **flex-end**：靠右对齐
@@ -46,7 +46,7 @@ justify-content属性定义了项目在主轴上的对齐方式。
 }
 ```
 ### align-items
-![](../images/flex5.jpg)
+![](../images/HTML+CSS/flex/flex5.jpg)
 align-items属性定义项目在交叉轴上如何对齐。
 **flex-start**：交叉轴的起点对齐。
 **flex-end**：交叉轴的终点对齐。
@@ -59,7 +59,7 @@ align-items属性定义项目在交叉轴上如何对齐。
 }
 ```
 ### align-content
-![](../images/flex6.jpg)
+![](../images/HTML+CSS/flex/flex6.jpg)
 align-content属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。
 **flex-start**：与交叉轴的起点对齐。
 **flex-end**：与交叉轴的终点对齐。
@@ -81,7 +81,7 @@ order属性定义项目的排列顺序。数值越小，排列越靠前，默认
 }
 ```
 ### flex-grow
-![](../images/flex7.jpg)
+![](../images/HTML+CSS/flex/flex7.jpg)
 flex-grow属性定义项目的放大比例，默认为0，即如果存在剩余空间，也不放大。
 ```
 .item {
@@ -89,7 +89,7 @@ flex-grow属性定义项目的放大比例，默认为0，即如果存在剩余�
 }
 ```
 ### flex-shrink
-![](../images/flex8.jpg)
+![](../images/HTML+CSS/flex/flex8.jpg)
 flex-shrink属性定义了项目的缩小比例，默认为1，即如果空间不足，该项目将缩小。
 ```
 .item {
@@ -111,7 +111,7 @@ flex属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 au
 }
 ```
 ### align-self
-![](../images/flex9.jpg)
+![](../images/HTML+CSS/flex/flex9.jpg)
 align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。
 ```
 .item {
