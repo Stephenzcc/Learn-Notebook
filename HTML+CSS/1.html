@@ -1,54 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="utf-8">
+  <title>Articles</title>
   <style>
-    .father {
-      width: 500px;
-      height: 300px;
-      display: flex;
-      background-color: black;
+    body {
+      margin: 0;
     }
 
-    #child1 {
-      /* flex: auto; */
-      /* width: 600px; */
-      /* flex: 2; */
-      flex-grow: 1;
-      flex-shrink: 1;
-      flex-basis: 100px;
-      background-color: orangered;
+    article:nth-child(1) {
+      width: 200px;
+      height: 100px;
+      background-color: red;
     }
 
-    #child2 {
-      /* flex: auto; */
-      flex-grow: 0;
-      flex-shrink: 1;
-      flex-basis: 100px;
-      background-color: rgb(0, 255, 221);
+    article:nth-child(2) {
+      width: 200px;
+      height: 100px;
+      position: fixed;
+      top: 0px;
+      left: 200px;
+      background-color: yellow;
     }
 
-    #child3 {
-      /* flex: auto; */
-      flex-grow: 0;
-      flex-shrink: 1;
-      flex-basis: 100px;
-      background-color: rgb(0, 255, 0);
+    article:nth-child(3) {
+      width: 200px;
+      height: 100px;
+      background-color: blue;
     }
+
+    article:nth-child(4) {
+      width: 200px;
+      height: 100px;
+      position: fixed;
+      top: 100px;
+      left: 200px;
+      background-color: green;
+    }
+
+    /* Write your CSS solution here (do not edit the surrounding HTML) */
   </style>
 </head>
 
 <body>
-  <div class='father'>
-    <div id="child1"></div>
-    <div id="child2"></div>
-    <div id="child3"></div>
-  </div>
-
+  <article>First</article>
+  <article>Second</article>
+  <article>Third</article>
+  <article>Fourth</article>
 </body>
 
 </html>
